@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font: normal 16px/1.5 sans-serif;
+}
+
+body {
+  margin: unset;
+}

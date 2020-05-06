@@ -1,16 +1,14 @@
 import React from "react";
-import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Create from "./pages/Create";
 import Recipe from "./pages/Recipe";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
     <BrowserRouter>
-      <nav>
-        <Link to="/">My recipes</Link>
-        <Link to="/recipe/create">Add recipe</Link>
-      </nav>
+      <Navigation />
 
       <Switch>
         <Route path="/" exact>

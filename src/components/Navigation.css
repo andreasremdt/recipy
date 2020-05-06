@@ -1,0 +1,29 @@
+.main-navigation {
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+  height: 3rem;
+  background-color: #333;
+  text-transform: uppercase;
+}
+
+.main-navigation > .logo {
+  color: #fff;
+  margin-right: 3rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.main-navigation > .link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  font-size: 14px;
+}
+
+.main-navigation > .link:hover,
+.main-navigation > .link:focus,
+.main-navigation > .link.-active {
+  color: tomato;
+}
